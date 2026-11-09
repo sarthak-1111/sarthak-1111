@@ -27,7 +27,7 @@ We combined eight synchrotron measurements of 46 platinum-based catalysts into o
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/sarthak-1111/stepswitch"><img src="assets/stepswitch.gif" alt="Stepswitch running a task in the terminal: each step names the model that ran it"></a>
+<a href="https://github.com/sarthak-1111/stepswitch"><img src="assets/stepswitch.png" alt="A finished Stepswitch run in the terminal: each step names the model that ran it, and the tests pass"></a>
 <p><b><a href="https://github.com/sarthak-1111/stepswitch">Stepswitch</a></b><br>
 An orchestrator for coding agents on local and remote models. Each step of a task goes to the model that suits it, every change has to pass your tests, and every claim in the README re-runs with <code>ssw prove</code>.</p>
 </td>
