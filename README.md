@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.png">
-  <img src="assets/banner-light.png" alt="Sarthak Verma. Machine learning for X-ray science, and agents on models you run yourself.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.png">
+  <img src="assets/header-light.png" alt="Sarthak Verma. Multi-agent LLM systems, model routing and open-weight inference. Shipped in software, materials science and AR.">
 </picture>
 
 <p align="center"><samp>
@@ -10,17 +10,9 @@
 <a href="https://doi.org/10.1038/s42004-025-01800-y">paper</a>
 </samp></p>
 
-I'm a research scientist in Japan working on machine learning for X-ray, synchrotron and spectroscopy data. I also build open-source tools for LLM agents that run on your own hardware, and I treat them like experiments: if a README states a number, there should be a command that reproduces it.
+I build multi-agent LLM systems and the layer underneath them: orchestration, model routing, tool calling and inference on open-weight models. My main project, Stepswitch, sends each step of a coding task to the model that suits it, from small local models to large open-weight and hosted ones, and keeps a change only if your tests pass.
 
-## Research
-
-**Machine Learning-Guided Multimodal Synchrotron Analysis Workflow for Fuel Cell Electrocatalyst Discovery**<br>
-*Communications Chemistry*, 2025
-
-<a href="https://doi.org/10.1038/s42004-025-01800-y"><img alt="Paper DOI 10.1038/s42004-025-01800-y" src="https://img.shields.io/badge/DOI-10.1038%2Fs42004--025--01800--y-0f766e"></a>
-<a href="https://doi.org/10.5281/zenodo.17538068"><img alt="Data and code on Zenodo, DOI 10.5281/zenodo.17538068" src="https://zenodo.org/badge/DOI/10.5281/zenodo.17538068.svg"></a>
-
-We combined eight synchrotron measurements of 46 platinum-based catalysts into one set of descriptors and trained models to predict each catalyst's mass activity. I co-led the machine learning side.
+I don't stay in one field. So far I've built for software, materials science and augmented reality, and each project checks its output against something real: your tests, measured data, or the geometry of diffraction.
 
 ## Projects
 
@@ -29,12 +21,12 @@ We combined eight synchrotron measurements of 46 platinum-based catalysts into o
 <td width="50%" valign="top">
 <a href="https://github.com/sarthak-1111/stepswitch"><img src="assets/stepswitch.png" alt="A finished Stepswitch run in the terminal: each step names the model that ran it, and the tests pass"></a>
 <p><b><a href="https://github.com/sarthak-1111/stepswitch">Stepswitch</a></b><br>
-An orchestrator for coding agents on local and remote models. Each step of a task goes to the model that suits it, every change has to pass your tests, and every claim in the README re-runs with <code>ssw prove</code>.</p>
+A multi-agent orchestrator for coding. Each step of a task goes to the model and harness that suit it, across local open-weight models and hosted APIs. Changes must pass your tests, and every claim in the README re-runs with <code>ssw prove</code>.</p>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/sarthak-1111/concord"><img src="assets/concord.jpg" alt="Concord: plain x, y data in, a structural model out"></a>
 <p><b><a href="https://github.com/sarthak-1111/concord">Concord</a></b><br>
-XRD, PDF and XAFS data from one sample, analysed together by AI agents and cross-checked into one structural model. Tested on published measured data, not only simulations.</p>
+Multi-agent analysis for materials science. AI agents read XRD, PDF and XAFS data from one sample and cross-check each other into one structural model. Tested on published measured data, not only simulations.</p>
 </td>
 </tr>
 <tr>
@@ -49,3 +41,13 @@ XRD, PDF and XAFS data from one sample, analysed together by AI agents and cross
 </td>
 </tr>
 </table>
+
+## Publication
+
+**Machine Learning-Guided Multimodal Synchrotron Analysis Workflow for Fuel Cell Electrocatalyst Discovery**<br>
+*Communications Chemistry*, 2025
+
+<a href="https://doi.org/10.1038/s42004-025-01800-y"><img alt="Paper DOI 10.1038/s42004-025-01800-y" src="https://img.shields.io/badge/DOI-10.1038%2Fs42004--025--01800--y-0f766e"></a>
+<a href="https://doi.org/10.5281/zenodo.17538068"><img alt="Data and code on Zenodo, DOI 10.5281/zenodo.17538068" src="https://zenodo.org/badge/DOI/10.5281/zenodo.17538068.svg"></a>
+
+From my day job as a research scientist in Japan: eight synchrotron measurements of 46 platinum catalysts combined into one model that predicts catalyst activity. I co-led the modelling.
