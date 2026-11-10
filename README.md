@@ -37,7 +37,7 @@ Multi-agent analysis for materials science. AI agents read XRD, PDF and XAFS dat
 <p><b><a href="https://github.com/sarthak-1111/braggs-room">Bragg's Room</a></b><br>
 <sub>Built for Learn AR with SPECS</sub></p>
 <p>X-ray diffraction at room scale. Turn a crystal on your desk and watch diffraction spots light up on your wall at their true angles, then work out whether a mystery crystal is simple cubic or face-centred cubic from which spots appear.</p>
-<p><a href="https://youtu.be/9aPGQw05psg">Watch the video</a></p>
+<p><a href="https://youtu.be/oRucnWf3XC8">Watch the video</a></p>
 </td>
 </tr>
 </table>
