@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.png">
-  <img src="assets/header-light.png" alt="Sarthak Verma. Multi-agent LLM systems, model routing and open-weight inference. Shipped in software, materials science and AR.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <img src="assets/header-light.svg" alt="Sarthak Verma. Multi-agent LLM systems, model routing and open-weight inference. Shipped in software, materials science and AR.">
 </picture>
 
 <p align="center"><samp>
